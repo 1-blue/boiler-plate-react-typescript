@@ -35,5 +35,5 @@
   // "files": []
 
   // svg파일 import를 위해 사용
-  "include": [ "src", "src/custom.d.ts" ]
+  "include": [ "src", "src/utils/custom.d.ts" ]
 }

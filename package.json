@@ -4,8 +4,8 @@
   "description": "React + Typescript 프로젝트 설명",
   "main": "index.js",
   "scripts": {
-    "dev": "cross-env TS_NODE_PROJECT=\"tsconfig-for-webpack-config.json\" webpack serve --env development",
-    "build": "cross-env TS_NODE_PROJECT=\"tsconfig-for-webpack-config.json\" webpack"
+    "dev": "cross-env TS_NODE_PROJECT=\"tsconfig-for-webpack-config.json\" webpack serve --env development --open",
+    "build": "cross-env TS_NODE_PROJECT=\"tsconfig-for-webpack-config.json\" webpack --env production"
   },
   "author": "1-blue",
   "license": "ISC",
@@ -32,6 +32,7 @@
     "babel-loader": "^8.2.3",
     "css-loader": "^6.6.0",
     "fork-ts-checker-webpack-plugin": "^7.0.0",
+    "html-webpack-plugin": "^5.5.0",
     "style-loader": "^3.3.1",
     "ts-node": "^10.4.0",
     "typescript": "^4.5.5",

@@ -9,9 +9,14 @@ import "@src/css/common.css";
 // components
 import AppRoutes from "@src/routes/AppRoutes";
 
+// theme
+import CustomThemeProvider from "./src/utils/CustomThemeProvider";
+
 ReactDOM.render(
   <React.StrictMode>
-    <AppRoutes />
+    <CustomThemeProvider>
+      <AppRoutes />
+    </CustomThemeProvider>
   </React.StrictMode>,
   document.querySelector("#root"),
 );

@@ -19,6 +19,7 @@ npm i -D eslint prettier eslint-plugin-prettier eslint-config-prettier
 npm i -D webpack webpack-cli webpack-dev-server
 npm i -D @pmmmwh/react-refresh-webpack-plugin
 npm i -D fork-ts-checker-webpack-plugin
+npm i -D html-webpack-plugin
 
 # loader + babel
 npm i -D style-loader css-loader @svgr/webpack
