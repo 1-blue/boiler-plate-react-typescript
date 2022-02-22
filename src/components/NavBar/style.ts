@@ -7,8 +7,8 @@ export const Wrapper = styled.nav`
   z-index: 1;
   padding: 1em;
   margin-bottom: 2em;
-  background-color: white;
-  box-shadow: 0 0 10px gray;
+  background-color: ${({ theme }) => theme.navColor};
+  box-shadow: 0 0 20px black;
 `;
 
 export const Container = styled.div`

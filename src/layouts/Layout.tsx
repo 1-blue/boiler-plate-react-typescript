@@ -1,12 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 
-// nav-component
-import Navigation from "@src/components/Navigation";
+// navbar, sidebar
+import NavBar from "@src/components/NavBar";
+import SideBar from "@src/components/SideBar";
 
-const Wrapper = styled.main`
-  background-color: #ededed;
-`;
+const Wrapper = styled.main``;
 
 type LayoutProps = {
   children: React.ReactNode;
@@ -15,7 +14,8 @@ type LayoutProps = {
 const Layout = ({ children }: LayoutProps) => {
   return (
     <Wrapper>
-      <Navigation />
+      <NavBar />
+      <SideBar />
       {children}
     </Wrapper>
   );

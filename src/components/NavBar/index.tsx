@@ -8,7 +8,7 @@ import Right from "./Right";
 // styled-components
 import { Wrapper, Container } from "./style";
 
-const Navigation = () => {
+const NavBar = () => {
   return (
     <Wrapper>
       <Container>
@@ -20,4 +20,4 @@ const Navigation = () => {
   );
 };
 
-export default Navigation;
+export default NavBar;

@@ -6,17 +6,11 @@ import "@src/css/reset.css";
 import "@src/css/animation.css";
 import "@src/css/common.css";
 
-// components
-import AppRoutes from "@src/routes/AppRoutes";
-
-// theme
-import CustomThemeProvider from "./src/utils/CustomThemeProvider";
+import App from "./src/App";
 
 ReactDOM.render(
   <React.StrictMode>
-    <CustomThemeProvider>
-      <AppRoutes />
-    </CustomThemeProvider>
+    <App />
   </React.StrictMode>,
   document.querySelector("#root"),
 );
