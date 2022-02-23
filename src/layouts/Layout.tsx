@@ -13,11 +13,11 @@ type LayoutProps = {
 
 const Layout = ({ children }: LayoutProps) => {
   return (
-    <Wrapper>
+    <>
       <NavBar />
       <SideBar />
-      {children}
-    </Wrapper>
+      <Wrapper>{children}</Wrapper>
+    </>
   );
 };
 
